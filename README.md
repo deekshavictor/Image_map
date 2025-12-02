@@ -24,7 +24,7 @@ Execute the programs and publish them.
 
 # CODE
 
-{% load static %}
+
 <html>
 <head>
     <title>NAMMA ERODE</title>
@@ -59,7 +59,6 @@ Execute the programs and publish them.
 
 park.html
 
-{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -119,7 +118,6 @@ park.html
 
 sant.html
 
-{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -188,7 +186,6 @@ sant.html
 
 temple.html
 
-{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -256,7 +253,6 @@ temple.html
 
 thindal.html
 
-{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
