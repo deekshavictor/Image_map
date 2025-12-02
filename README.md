@@ -23,6 +23,7 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 # CODE
+
 {% load static %}
 <html>
 <head>
@@ -55,7 +56,9 @@ Execute the programs and publish them.
 
 </body>
 </html>
+
 park.html
+
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -113,7 +116,9 @@ park.html
     </p>
 </body>
 </html>
+
 sant.html
+
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -180,7 +185,9 @@ sant.html
     </p>
 </body>
 </html>
+
 temple.html
+
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -246,7 +253,9 @@ temple.html
     </p>
 </body>
 </html>
+
 thindal.html
+
 {% load static %}
 <!DOCTYPE html>
 <html>
