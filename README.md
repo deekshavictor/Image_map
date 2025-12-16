@@ -24,7 +24,7 @@ Execute the programs and publish them.
 
 # CODE
 
-
+```
 <html>
 <head>
     <title>NAMMA ERODE</title>
@@ -56,7 +56,8 @@ Execute the programs and publish them.
 
 </body>
 </html>
-
+```
+```
 park.html
 
 <!DOCTYPE html>
@@ -115,7 +116,8 @@ park.html
     </p>
 </body>
 </html>
-
+```
+```
 sant.html
 
 <!DOCTYPE html>
@@ -183,7 +185,8 @@ sant.html
     </p>
 </body>
 </html>
-
+```
+```
 temple.html
 
 <!DOCTYPE html>
@@ -250,7 +253,8 @@ temple.html
     </p>
 </body>
 </html>
-
+```
+```
 thindal.html
 
 <!DOCTYPE html>
@@ -296,6 +300,41 @@ thindal.html
     </p>
 </body>
 </html>
+```
+```
+urls.py
+from django.contrib import admin
+from django.urls import path
+from imagemapapp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.map, name='map'),
+    path('park/', views.park, name='park'),
+    path('sant/', views.sant, name='sant'),
+    path('temple/', views.temple, name='temple'),
+    path('thindal/', views.thindal, name='thindal'),
+]
+```
+```
+views.py 
+from django.shortcuts import render
+
+def map(request):
+    return render(request, 'map.html')
+
+def park(request):
+    return render(request, 'park.html')
+
+def sant(request):
+    return render(request, 'sant.html')
+
+def temple(request):
+    return render(request, 'temple.html')
+
+def thindal(request):
+    return render(request, 'thindal.html')
+```
 # OUTPUT
 
 ![map html](https://github.com/user-attachments/assets/c818d747-1716-48b7-aebd-d506c852a687)
